@@ -28,6 +28,7 @@ First flutter app based Google I/O codelabs.
 [Step 5](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1/index.html#4)
 
 [StatefulWidget](https://docs.flutter.io/flutter/widgets/StatefulWidget-class.html)
+[State](https://docs.flutter.io/flutter/widgets/State-class.html)
 
 - [x] Use Stateful widget
 - [x] Create state
