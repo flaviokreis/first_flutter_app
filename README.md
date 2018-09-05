@@ -41,3 +41,13 @@ First flutter app based Google I/O codelabs.
 
 - [x] Show list view
 - [x] Use text style
+
+[Step 7](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2/index.html#3)
+
+[Material Design icons](https://material.io/tools/icons)
+[Icon Widget](https://docs.flutter.io/flutter/widgets/Icon-class.html)
+
+- [x] Use Material icons
+- [x] Use Material colors
+- [x] Add item icon
+- [x] Change active/inactive icon and color
