@@ -7,7 +7,7 @@ For help getting started with Flutter, view our online
 
 First flutter app based Google I/O codelabs.
 
-[### Step 3](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1/index.html#2)
+[Step 3](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1/index.html#2)
 
 [StatelessWidget](https://docs.flutter.io/flutter/widgets/StatelessWidget-class.html)
 [MaterialApp Widget](https://docs.flutter.io/flutter/material/MaterialApp-class.html)
@@ -19,3 +19,8 @@ First flutter app based Google I/O codelabs.
 - [x] Remove debug banner
 - [x] Change title
 - [x] Show body with text
+
+[Step 4](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1/index.html#3)
+
+- [x] Import package
+- [x] Change the text to show random names
