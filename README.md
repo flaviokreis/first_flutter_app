@@ -51,3 +51,8 @@ First flutter app based Google I/O codelabs.
 - [x] Use Material colors
 - [x] Add item icon
 - [x] Change active/inactive icon and color
+
+[Step 8](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2/index.html#4)
+
+- [x] Add/remove name by setState
+- [x] Use tap interaction to add/remove name item
