@@ -32,3 +32,12 @@ First flutter app based Google I/O codelabs.
 
 - [x] Use Stateful widget
 - [x] Create state
+
+[Step 6](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1/index.html#4)
+
+[ListView Widget](https://docs.flutter.io/flutter/widgets/ListView-class.html)
+[ListTile Widget](https://docs.flutter.io/flutter/material/ListTile-class.html)
+[TextStyle Widget](https://docs.flutter.io/flutter/painting/TextStyle-class.html)
+
+- [x] Show list view
+- [x] Use text style
