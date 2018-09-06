@@ -46,6 +46,7 @@ First flutter app based Google I/O codelabs.
 
 [Material Design icons](https://material.io/tools/icons)
 [Icon Widget](https://docs.flutter.io/flutter/widgets/Icon-class.html)
+[Colors](https://docs.flutter.io/flutter/material/Colors-class.html)
 
 - [x] Use Material icons
 - [x] Use Material colors
@@ -66,3 +67,9 @@ First flutter app based Google I/O codelabs.
 - [x] Use app bar actions
 - [x] Switch between screen
 - [x] Use navigation and route
+
+[Step 10](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2/index.html#6)
+
+[ThemeData](https://docs.flutter.io/flutter/material/ThemeData-class.html)
+
+- [x] Change theme
