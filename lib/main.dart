@@ -27,9 +27,49 @@ class RandomWordsState extends State<RandomWords> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: new AppBar(title: Text('Welcome to Flutter')),
-      body: Center(
-        child: _buildSuggestions(),
+      appBar: new AppBar(
+        title: Text('Welcome to Flutter'),
+        actions: <Widget>[
+          new IconButton(icon: const Icon(Icons.list), onPressed: _pushSaved),
+        ],
+      ),
+      body: _buildSuggestions(),
+    );
+  }
+
+  void _pushSaved() {
+    Navigator.of(context).push(
+      new MaterialPageRoute<void>(
+        builder: (BuildContext context) {
+          final Iterable<ListTile> tiles = _saved.map(
+            (WordPair pair) {
+              return new ListTile(
+                title: new Text(
+                  pair.asPascalCase,
+                  style: _biggerFont,
+                ),
+                leading: new Icon(
+                  Icons.favorite,
+                  color: Colors.red,
+                ),
+              );
+            },
+          );
+
+          final List<Widget> divided = ListTile.divideTiles(
+            context: context,
+            tiles: tiles,
+          ).toList();
+
+          return Scaffold(
+            appBar: AppBar(
+              title: const Text('Saved Suggestions'),
+            ),
+            body: new ListView(
+              children: divided,
+            ),
+          );
+        },
       ),
     );
   }
@@ -66,11 +106,11 @@ class RandomWordsState extends State<RandomWords> {
       ),
       onTap: () {
         setState(() {
-            if (alreadySaved) {
-                _saved.remove(pair);
-            } else {
-                _saved.add(pair);
-            }
+          if (alreadySaved) {
+            _saved.remove(pair);
+          } else {
+            _saved.add(pair);
+          }
         });
       },
     );

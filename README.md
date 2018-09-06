@@ -56,3 +56,13 @@ First flutter app based Google I/O codelabs.
 
 - [x] Add/remove name by setState
 - [x] Use tap interaction to add/remove name item
+
+[Step 9](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2/index.html#5)
+
+[IconButton Widget](https://docs.flutter.io/flutter/material/IconButton-class.html)
+[Navigator Widget](https://docs.flutter.io/flutter/widgets/Navigator-class.html)
+[MaterialPageRoute Widget](https://docs.flutter.io/flutter/material/MaterialPageRoute-class.html)
+
+- [x] Use app bar actions
+- [x] Switch between screen
+- [x] Use navigation and route
